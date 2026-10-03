@@ -1,0 +1,32 @@
+{
+  "id": "foundry-shadowrun6-eden-focused-concentration",
+  "title": "SR6 Eden: Focused Concentration",
+  "description": "Automates the Focused Concentration quality for the Shadowrun 6 Eden system. Each level (system.focusedConcentration) lets a character sustain one more spell or complex form without the -2 dice pool penalty. Spells with a Drain Value of 7 or more don't qualify. Works as a standalone module, without modifying the system.",
+  "version": "1.0.0",
+  "url": "https://github.com/zychuk/foundry-shadowrun6-eden-focused-concentration",
+  "manifest": "https://github.com/zychuk/foundry-shadowrun6-eden-focused-concentration/releases/latest/download/module.json",
+  "download": "https://github.com/zychuk/foundry-shadowrun6-eden-focused-concentration/releases/latest/download/module.zip",
+  "readme": "https://github.com/zychuk/foundry-shadowrun6-eden-focused-concentration#readme",
+  "bugs": "https://github.com/zychuk/foundry-shadowrun6-eden-focused-concentration/issues",
+  "license": "https://github.com/zychuk/foundry-shadowrun6-eden-focused-concentration/blob/main/LICENSE",
+  "compatibility": {
+    "minimum": "13",
+    "verified": "14"
+  },
+  "authors": [
+    { "name": "zychu" }
+  ],
+  "relationships": {
+    "systems": [
+      {
+        "id": "shadowrun6-eden",
+        "type": "system",
+        "compatibility": { "minimum": "3.3.9" }
+      }
+    ]
+  },
+  "esmodules": ["scripts/focused-concentration.js"],
+  "languages": [
+    { "lang": "en", "name": "English", "path": "lang/en.json" }
+  ]
+}
